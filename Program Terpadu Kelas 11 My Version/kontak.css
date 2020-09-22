@@ -1,0 +1,180 @@
+/* CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+/* Awal Dari KONTAK */
+
+body{
+
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: #acacac;
+
+}
+
+form .container{
+
+	background-color: white;
+	margin: 60px auto 0;
+	width: 1200px;
+	height: auto;
+	border: 5px solid lightskyblue;
+
+}
+
+form .container h1{
+
+	font-size: 80px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px;
+	letter-spacing: 10px;
+}
+
+.ribbon{
+
+	width: auto;
+	height: 46px;
+	background-color: mediumpurple;
+}
+
+.ribbon ul li{
+
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 14px;
+}
+
+.ribbon ul li a{
+
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+}
+
+.ribbon ul li a:hover{
+
+	color: red;
+}
+
+form .container .kotak{
+
+	width: 450px;
+	height: 350px;
+	background-color: white;
+	margin: 30px auto;
+	padding: 10px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 12px;
+	box-shadow:  0px 0px 10px 10px #adadad;
+	/* nilai 0(pertama) untuk menentukan rata kiri dan kanan bayangan (nilai x)
+	 nilai 0(kedua) untuk menentukan tinngi rendah bayangan (nilai y)
+	 nilai 10px(pertama) untuk radius bayangan
+	 nilai 10px(kedua) untuk ketebalan bayangan*/
+
+}
+
+form .container .kotak h5{
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 15px 0;
+	font-size: 15px;
+}
+
+input[type="text"], input[type="komentar"]{
+
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+form .container .kotak button{
+
+	background-color: #05626c;
+	color: white;
+	width: 100%;
+	margin: 15px 0;
+	padding: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+.ribbon2{
+
+	width: auto;
+	height: 46px;
+	background-color: mediumpurple;
+}
+
+form .container .ribbon2 h3{
+
+	font-size: 16px;
+	text-align: center;
+	padding-top: 14px;
+	color: white;
+	font-weight:none;
+}
+
+/* Akhir dari KONTAK */
+
+
+
+/*Clearfix <== untuk menghentikan float nya*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

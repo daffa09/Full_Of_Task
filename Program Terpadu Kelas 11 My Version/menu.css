@@ -1,0 +1,180 @@
+/* CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: #acacac;
+
+}
+
+.container{
+
+	background-color: white;
+	margin: 60px auto 0;
+	width: 1200px;
+	height: auto;
+	border: 5px solid lightskyblue;
+
+}
+
+.container .main h1{
+
+	font-size: 80px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px;
+	letter-spacing: 10px;
+}
+
+.ribbon{
+
+	width: auto;
+	height: 46px;
+	background-color: mediumpurple;
+}
+
+.ribbon ul li{
+
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 14px;
+}
+
+.ribbon ul li a{
+
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+}
+
+.ribbon ul li a:hover{
+
+	color: red;
+}
+
+
+.container .main .picture{
+
+	position: relative;
+}
+
+.geprek1{
+
+	position: absolute;
+	display: inline block;
+	left: 200px;
+	top: 50px;
+}
+
+.geprek2{
+
+	position: absolute;
+	display: inline block;
+	left: 500px;
+	top: 50px;
+}
+
+.geprek3{
+
+	position: absolute;
+	display: inline block;
+	left: 800px;
+	top: 50px;
+}
+
+
+.container .main .menu1, .menu2, .menu3{
+
+	margin-top: 350px;
+}
+
+.container .main h3{
+
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 8px;
+}
+
+.container .main p{
+
+	text-align: justify;
+	word-spacing: 3px;
+	padding-top: 15px;
+	margin-left: 8px;
+	padding-right: 10px;
+}
+
+.container .main .img1,.img2,.img3{
+
+	margin: 20px 8px;
+}
+
+.ribbon2{
+
+	width: auto;
+	height: 46px;
+	background-color: mediumpurple;
+}
+
+.container .main .ribbon2 h3{
+
+	font-size: 16px;
+	text-align: center;
+	padding-top: 14px;
+	color: white;
+	font-weight:none;
+}
+
+/* Akhir dari MENU */
+
+
+
+/*Clearfix <== untuk menghentikan float nya*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
