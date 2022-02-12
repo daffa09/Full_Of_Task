@@ -1,0 +1,9 @@
+DATABASE
+
+- buka phpmyadmin lalu buat database baru dengan nama "Rayyan_medical_inventory"
+- setelah itu buka folder tugas_akhir melalui code editor
+- lalu buka file .env lalu cari sintaks bernama DB_DATABASE lalu isi dengan nama "Rayyan_medical_inventory"
+- setelah itu buka command prompt lalu arahkan ke folder tugas_akhir
+- lalu ketik "php artisan migrate:fresh --seed"
+- tunggu sampai selesai
+- dan database beserta isinya telah selesai di import
