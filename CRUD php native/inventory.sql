@@ -42,7 +42,7 @@ INSERT INTO `barang` (`id_barang`, `nama_barang`, `stok`) VALUES
 (3, 'pahala', 500),
 (4, 'keberanian', 800),
 (5, 'kebaikan hati', 400),
-(6, 'kebijakan', 600);
+(6, 'kebajikan', 600);
 
 --
 -- Indexes for dumped tables
